@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>table management</title>
+	<style>
+		table, th, td {
+			text-align: center;
+			border: 1px solid black;
+			border-collapse: collapse;
+			width: 180px;
+			height: 50px;
+		}
+	</style>
+</head>
+
+<body>
+	<table style="width=100%; border-color: black;">
+		<caption>Table</caption>
+		<tr>
+			<th>One</th>
+			<th>Two</th>
+			<th>Three</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td colspan="2">5</td>
+		</tr>
+		<tr>
+			<td rowspan="2">6</td>
+			<td>7</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td>9</td>
+			<td>10</td>
+		</tr>
+	</table>
+</body>
+</html>
